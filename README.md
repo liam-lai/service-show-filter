@@ -1,5 +1,11 @@
-# service-show-file
-Some description
+# service-show-filter
+API service for filtering series data
+
+## API List
+```
+* /        // filter has drm and has at least one episode 
+* /status  // return ok
+```
 
 ## Setup
 ```
@@ -30,7 +36,15 @@ make release
 make deploy
 ```
 
+## Heroku Setup
+```
+brew install heroku/brew/heroku
+heroku login
+heroku create
+git push heroku master
+```
+
 ## TODO
-* DEPLOY
+* ~~DEPLOY~~
 * ~~GO MODULE~~
-* README
+* ~~README~~

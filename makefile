@@ -11,3 +11,6 @@ dependency:
 	
 release: dependency test
 	go build
+
+deploy: release
+	git push heroku master
