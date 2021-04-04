@@ -9,6 +9,5 @@ dev: test
 dependency: 
 	go mod tidy
 	
-release:
-	go test
+release: dependency test
 	go build

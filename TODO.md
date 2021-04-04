@@ -1,3 +1,0 @@
-DEPLOY
-~~GO MOD~~
-README

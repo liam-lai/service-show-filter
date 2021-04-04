@@ -15,7 +15,7 @@ func main() {
 	}
 
 	if port = os.Getenv("PORT"); port == "" {
-		port = "8080"
+		port = "443"
 	}
 
 	util.LogInit(logLevel)

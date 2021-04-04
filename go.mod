@@ -1,5 +1,6 @@
 module github.com/liam-lai/service-show-filter
 
+// +heroku goVersion go1.15
 go 1.15
 
 require (
