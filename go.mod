@@ -8,4 +8,5 @@ require (
 	github.com/onsi/ginkgo v1.16.0
 	github.com/onsi/gomega v1.11.0
 	github.com/rs/zerolog v1.21.0
+	golang.org/x/sys v0.0.0-20210403161142-5e06dd20ab57 // indirect
 )
