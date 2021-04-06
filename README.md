@@ -3,8 +3,8 @@ API service for filtering series data
 
 ## API List
 ```
-* /        // filter has drm and has at least one episode 
-* /status  // return ok
+/        // filter has drm and has at least one episode 
+/status  // return ok
 ```
 
 ## Setup
